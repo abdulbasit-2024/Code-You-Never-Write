@@ -1,0 +1,9 @@
+--- Initial Prompt ---
+I have a really messy folder full of random files. Write a script to organize them by file type into new folders. 
+
+Please show me your full plan first—every file you would move—and wait for my approval before touching anything. I want to do a dry run first to be safe.
+
+--- Improved Prompt ---
+Act as a strict systems administrator. Write a Python script using 'shutil' and 'os' to safely organize a messy directory by file extensions (e.g., mapping .pdf files to a 'Documents' folder and .mp4 to 'Videos'). 
+
+Crucially, the script MUST include a 'dry_run' safety toggle variable that defaults to True. When in dry run mode, the script must only iterate through the files and print out the exact source and planned destination paths without actually executing any file operations. I will manually review this output to verify your file mapping logic before I change the toggle to False and allow the actual file movement.
