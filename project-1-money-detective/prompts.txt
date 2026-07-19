@@ -1,0 +1,17 @@
+Initial Prompt
+Here is my statement. Write a script that checks for duplicate payments. Also, calculate the total amount spent so I can verify your math.
+
+Data Included:
+2026-07-01: Meta Ads Campaign - 30,000
+2026-07-03: News Website Domain - 3,500
+2026-07-05: Grocery (Chicken) - 800
+2026-07-08: Phone VPN Subscription - 1,500
+2026-07-08: Phone VPN Subscription - 1,500
+2026-07-12: Meta Ads Campaign - 30,000
+2026-07-15: Kashmir Tour Deposit - 15,000
+
+Improved Prompt
+
+Act as an expert Python developer. I am providing a list of my recent expenses. Write a Python script that parses this text, calculates the exact total amount spent, and identifies any exact duplicate transactions (same date, same name, same amount). 
+
+Do not flag transactions with the same name but different dates as duplicates. Print the final total and any duplicates clearly so I can verify them against my own manual calculations.
