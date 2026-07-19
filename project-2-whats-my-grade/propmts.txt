@@ -1,0 +1,18 @@
+--- Initial Prompt ---
+Here are my class scores and grading rules. Write a script that calculates my current grade based on these rules. Also, calculate exactly what score I need to get on the Final Exam to achieve a target overall grade of 90%.
+
+Rules:
+- Quizzes: 40% (Drop the lowest score)
+- Midterm: 30%
+- Final: 30%
+
+Scores:
+- Prompt Engineering Quiz: 85
+- Context Engineering Quiz: 60
+- Harness Engineering Quiz: 90
+- Midterm: 88
+
+--- Improved Prompt ---
+Act as an advanced educational data analyst. Write a Python script to calculate a student's current weighted standing and project the necessary future exam performance required to hit a specific milestone. 
+
+The script must accept conditional grading logic: it needs to dynamically sort a list of quiz grades, isolate the lowest single score, and drop it from the final category average. It must then apply a 40% weight to quizzes and a 30% weight to the midterm exam to find the current grade. Finally, use the remaining 30% allocation for the final exam to compute the exact raw score needed to reach a global grade target of 90%. Print all stages of the calculation for manual user auditing.
