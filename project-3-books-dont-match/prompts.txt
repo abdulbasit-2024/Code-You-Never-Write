@@ -1,0 +1,14 @@
+--- Initial Prompt ---
+I am organizing a tour and collecting 15,000 from four people: Anas Rafique, Abdul Basit, Abu Huraira, and Noman Habib. The expected total is 60,000. 
+
+Here are my messy digital payment records:
+- Anas Transfer: 15,000
+- Basit Trip: 15,000
+- Abu H. partial: 10,000
+
+Write a script that translates those messy names into the real names, calculates the total received, and tells me exactly who still owes money and how much the total gap is.
+
+--- Improved Prompt ---
+Act as an expert financial data reconciler. I need a Python script to reconcile a set of expected manual totals against a messy array of digital transaction records. 
+
+Initialize an expected total of 60,000 (15,000 per person across 4 specific individuals). Use a dictionary to map ambiguous bank memo strings (e.g., "Basit Trip", "Abu H. partial") to the correct full names. The script must iterate through the messy records, aggregate the total cash received, subtract it from the expected baseline to find the total financial gap, and output a strict follow-up list detailing exactly which individuals have an outstanding balance and what that exact balance is.
